@@ -16,7 +16,7 @@ Examples
 --------
 * ICP (Interactive Iterative Closest Point):  
 taken from http://pointclouds.org/documentation/tutorials/iterative_closest_point.php
-It is an algorithm used to minimize the difference between two clouds of points. The example shows how to find the transformation matrix between two point clouds and use it to move cloud A in the same place as cloud B.
+It is an algorithm used to minimize the difference between two clouds of points. The example shows how to find the transformation matrix between two point clouds and use it to move cloud A in the same place as cloud B. ICP can only finding the transformation matrix when the difference between the two clouds is not too big.
 
 * PCA (Principal Component Analysis):  
 taken from http://pointclouds.org/documentation/tutorials/normal_estimation.php
