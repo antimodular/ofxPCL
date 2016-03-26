@@ -14,17 +14,17 @@ Description
 
 Examples
 --------
-ICP (Interactive Iterative Closest Point):
+*ICP (Interactive Iterative Closest Point):
 taken from http://pointclouds.org/documentation/tutorials/iterative_closest_point.php
 It is an algorithm used to minimize the difference between two clouds of points. The example shows how to find the transformation matrix between two point clouds and use it to move cloud A in the same place as cloud B.
 
-PCA (Principal Component Analysis):
+*PCA (Principal Component Analysis):
 taken from http://pointclouds.org/documentation/tutorials/normal_estimation.php
 It is a statistical procedure that extracts the most important features of a dataset.
 The example shows how to get the bounding box and finds the direction along which the point data varies the most.
 PCA has it's limits, it lacks up and down orientation information. That's why you can see the direction line flip after 180˚ rotation.
 
-SAC_IA (Sample Consensus Initial Alignment):
+*SAC_IA (Sample Consensus Initial Alignment):
 taken from http://pointclouds.org/documentation/tutorials/template_alignment.php
 This example does not work yet. Somehow the 2 point clouds do not return any reasonable transformation matrix and fitness score.
 
