@@ -1,6 +1,5 @@
 ofxPCL - custom
-=========
-
+-----------
 
 Description
 -----------
@@ -12,36 +11,23 @@ Description
 * I only tested this on OSX 10.10.5 with OF 0.9.3 and Xcode 6.4.
 * I want to thank Roy from www.morethantechnical.com for helping me through some of the tricky bits.
 
-<<<<<<< HEAD
 ![](https://raw.githubusercontent.com/antimodular/ofxPCL/master/test.png)
 
 Examples
 --------
-ICP (Interactive Iterative Closest Point):
-taken from http://pointclouds.org/documentation/tutorials/iterative_closest_point.php
-It is an algorithm used to minimize the difference between two clouds of points. The example shows how to find the transformation matrix between two point clouds and use it to move cloud A in the same place as cloud B.
-
-PCA (Principal Component Analysis):
-=======
-Examples
---------
 * ICP (Interactive Iterative Closest Point):
-taken from http://pointclouds.org/documentation/tutorials/iterative_closest_point.php
+taken from <http://pointclouds.org/documentation/tutorials/iterative_closest_point.php>
 It is an algorithm used to minimize the difference between two clouds of points. The example shows how to find the transformation matrix between two point clouds and use it to move cloud A in the same place as cloud B.
 
 * PCA (Principal Component Analysis):
->>>>>>> origin/master
-taken from http://pointclouds.org/documentation/tutorials/normal_estimation.php
+taken from <http://pointclouds.org/documentation/tutorials/normal_estimation.php>
 It is a statistical procedure that extracts the most important features of a dataset.
 The example shows how to get the bounding box and finds the direction along which the point data varies the most.
 PCA has it's limits, it lacks up and down orientation information. That's why you can see the direction line flip after 180˚ rotation.
 
-<<<<<<< HEAD
 SAC_IA (Sample Consensus Initial Alignment):
-=======
 * SAC_IA (Sample Consensus Initial Alignment):
->>>>>>> origin/master
-taken from http://pointclouds.org/documentation/tutorials/template_alignment.php
+taken from <http://pointclouds.org/documentation/tutorials/template_alignment.php>
 This example does not work yet. Somehow the 2 point clouds do not return any reasonable transformation matrix and fitness score.
 
 
@@ -52,11 +38,8 @@ Setup New Project
 * Drag the .h files from ../../../addons/ofxPCL/src in to your Xcode project, without copying them
 
 * Add all PCL dynamic library files (dylib) from ofxPCL/libs/pcl/lib to your xcode projects Build Phases -> Link Binary With Libraries section.
-<<<<<<< HEAD
 * This will also automatically add this line to you Build Settings -> Library Search Paths: 
-=======
 * This will also automatically add this line to your Build Settings -> Library Search Paths: 
->>>>>>> origin/master
 $(SYSTEM_APPS_DIR)/of_v0.9.3_osx_release/addons/ofxPCL/libs/pcl/lib
 * Also the dylibs will now appear in the left hand navigator area.
 
@@ -70,7 +53,3 @@ $(SYSTEM_APPS_DIR)/of_v0.9.3_osx_release/addons/ofxPCL/libs/pcl/lib
 ![](https://raw.githubusercontent.com/antimodular/ofxPCL/master/add_headerSearchPath.png)
 ![](https://raw.githubusercontent.com/antimodular/ofxPCL/master/add_headerSearchPath.png)
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
