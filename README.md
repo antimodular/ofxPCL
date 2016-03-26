@@ -3,7 +3,7 @@ ofxPCL - custom
 
 Description
 -----------
-* None of the other ofxPCL addons worked for me. Maybe they are too old or i am too old.
+* None of the [other] (http://www.ofxaddons.com/) ofxPCL addons worked for me. Maybe they are too old or i am too old.
 * This version uses [PCL 1.7.2] (http://pointclouds.org/downloads/macosx.html)
 * No other dependencies need to be downloaded and installed, just ofxPCL.
 * Here are some notes i took during troubleshooting this setup: <https://gist.github.com/antimodular/e3bcdeac878073001569> , incase i installed some stuff deep in the belly of the computer that all this needs in order to run.
@@ -25,7 +25,6 @@ It is a statistical procedure that extracts the most important features of a dat
 The example shows how to get the bounding box and finds the direction along which the point data varies the most.
 PCA has it's limits, it lacks up and down orientation information. That's why you can see the direction line flip after 180˚ rotation.
 
-SAC_IA (Sample Consensus Initial Alignment):
 * SAC_IA (Sample Consensus Initial Alignment):
 taken from <http://pointclouds.org/documentation/tutorials/template_alignment.php>
 This example does not work yet. Somehow the 2 point clouds do not return any reasonable transformation matrix and fitness score.
