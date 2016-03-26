@@ -1,0 +1,8 @@
+<mesh>
+	<min_sample_distance>0.01</min_sample_distance>
+	<max_correspondence_distance>0.01</max_correspondence_distance>
+	<fps>275</fps>
+<mesh/>
+<min_dist>0.0001</min_dist>
+	<max_corres_dist>170</max_corres_dist>
+</mesh>
