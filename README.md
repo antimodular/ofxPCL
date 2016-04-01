@@ -7,7 +7,7 @@ Description
 * This version uses [PCL 1.7.2] (http://pointclouds.org/downloads/macosx.html)
 * Download this ofxPCL and place it in your addon folder.
 * Open your terminal and install homebrew as described here: <http://brew.sh>; i.e. copy past that one line and execute.
-* Follow the instaruction on how to install PCL via homebrew: <http://www.pointclouds.org/documentation/tutorials/installing_homebrew.php>; i.e. 'brew tap homebrew/science' and then 'brew install pcl'
+* Follow the instaruction on how to install PCL via homebrew: <http://www.pointclouds.org/documentation/tutorials/installing_homebrew.php>; i.e. `brew tap homebrew/science` and then `brew install pcl`
 * Here are some notes i took during troubleshooting this setup: <https://gist.github.com/antimodular/75abe99baacb3aee0dab#gistcomment-1727264> , incase i installed some stuff deep in the belly of the computer that all this needs in order to run.
 
 * I only tested this on OSX 10.10.5 with OF 0.9.3 and Xcode 6.4.
