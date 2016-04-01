@@ -54,6 +54,6 @@ Hints
 Screenshots
 -----------------
 * Here are some screenshots of my project setup:
-![](https://raw.githubusercontent.com/antimodular/ofxPCL/master/add_headerSearchPath.png)
-![](https://raw.githubusercontent.com/antimodular/ofxPCL/master/add_headerSearchPath.png)
+![](https://raw.githubusercontent.com/antimodular/ofxPCL/master/add_headerSearchPath.jpg)
+![](https://raw.githubusercontent.com/antimodular/ofxPCL/master/add_dylibs.jpg)
 
