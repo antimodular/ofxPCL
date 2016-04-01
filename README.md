@@ -1,13 +1,14 @@
 ofxPCL - custom
 =========
 
-
+-NOTE:
+seems like it still needs to first have PCL installed via brew. Update soon.
 Description
 -----------
 * None of the other ofxPCL addons worked for me. Maybe they are too old or i am too old.
 * This version uses [PCL 1.7.2] (http://pointclouds.org/downloads/macosx.html)
 * No other dependencies need to be downloaded and installed, just ofxPCL.
-* Here are some notes i took during troubleshooting this setup: <https://gist.github.com/antimodular/e3bcdeac878073001569> , incase i installed some stuff deep in the belly of the computer that all this needs in order to run.
+* Here are some notes i took during troubleshooting this setup: <https://gist.github.com/antimodular/75abe99baacb3aee0dab#gistcomment-1727264> , incase i installed some stuff deep in the belly of the computer that all this needs in order to run.
 
 * I only tested this on OSX 10.10.5 with OF 0.9.3 and Xcode 6.4.
 * I want to thank Roy from www.morethantechnical.com for helping me through some of the tricky bits.
