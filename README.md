@@ -9,9 +9,12 @@ Description
 * Open your terminal and install homebrew as described here: <http://brew.sh>; i.e. copy past that one line and execute.
 * Follow the instaruction on how to install PCL via homebrew: <http://www.pointclouds.org/documentation/tutorials/installing_homebrew.php>; i.e. `brew tap homebrew/science` and then `brew install pcl`
 * Here are some notes i took during troubleshooting this setup: <https://gist.github.com/antimodular/75abe99baacb3aee0dab#gistcomment-1727264> , incase i installed some stuff deep in the belly of the computer that all this needs in order to run.
-
-* I only tested this on OSX 10.10.5 with OF 0.9.3 and Xcode 6.4.
 * I want to thank Roy from www.morethantechnical.com for helping me through some of the tricky bits.
+
+System
+------
+* This was tested on OSX 10.10.5 with OF 0.9.3 and Xcode 6.4.
+* Does not work on OSX 10.8.3, because PCL does not want to install.
 
 Examples
 --------
