@@ -4,8 +4,8 @@ ofxPCL - custom
 Description
 -----------
 update:
-* As of June 2016 homebrew installs PCL version 1.8, which i have not yet tested 
-* iIn order to make my current apps work i copied the lib folder contained in [lib_172.zip] (https://github.com/antimodular/ofxPCL/blob/master/lib_172.zip) in to usr/local/opt/pcl
+* As of June 2016 homebrew installs PCL version 1.8, which i have not yet tested.
+* In order to make my current apps work i copied the lib folder contained in [lib_172.zip] (https://github.com/antimodular/ofxPCL/blob/master/lib_172.zip) in to usr/local/opt/pcl .
 
 original:
 * None of the other ofxPCL addons worked for me. Maybe they are too old or i am too old.
