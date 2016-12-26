@@ -85,6 +85,10 @@
 		832BDC407620CDBA568B713D /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlerror.cpp; path = ../../ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
 		87F26B4B24CBD428AD9EEBAA /* ofxBaseGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxBaseGui.h; path = ../../ofxGui/src/ofxBaseGui.h; sourceTree = SOURCE_ROOT; };
 		89449E3044D456F7DE7BEA14 /* ofxPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxPanel.h; path = ../../ofxGui/src/ofxPanel.h; sourceTree = SOURCE_ROOT; };
+		8A94249F1E0CBC1900DBE959 /* ofxICPhelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxICPhelper.h; path = ../src/ofxICPhelper.h; sourceTree = "<group>"; };
+		8A9424A01E0CBC1900DBE959 /* ofxPCAhelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxPCAhelper.h; path = ../src/ofxPCAhelper.h; sourceTree = "<group>"; };
+		8A9424A11E0CBC1900DBE959 /* ofxPCL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxPCL.h; path = ../src/ofxPCL.h; sourceTree = "<group>"; };
+		8A9424A21E0CBC1900DBE959 /* ofxSACIAhelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxSACIAhelper.h; path = ../src/ofxSACIAhelper.h; sourceTree = "<group>"; };
 		907C5B5E104864A2D3A25745 /* ofxToggle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxToggle.cpp; path = ../../ofxGui/src/ofxToggle.cpp; sourceTree = SOURCE_ROOT; };
 		9604B925D32EE39065747725 /* ofxBaseGui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxBaseGui.cpp; path = ../../ofxGui/src/ofxBaseGui.cpp; sourceTree = SOURCE_ROOT; };
 		B21E7E5F548EEA92F368040B /* tinyxml.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tinyxml.h; path = ../../ofxXmlSettings/libs/tinyxml.h; sourceTree = SOURCE_ROOT; };
@@ -225,6 +229,10 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				8A94249F1E0CBC1900DBE959 /* ofxICPhelper.h */,
+				8A9424A01E0CBC1900DBE959 /* ofxPCAhelper.h */,
+				8A9424A11E0CBC1900DBE959 /* ofxPCL.h */,
+				8A9424A21E0CBC1900DBE959 /* ofxSACIAhelper.h */,
 				480A780D8D0308AE4A368801 /* ofxGui */,
 				1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */,
 			);
@@ -686,7 +694,7 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/of_v0.9.3_osx_release/addons/ofxPCL/libs/pcl/lib",
+					"$(SYSTEM_APPS_DIR)/of_v0.9.8_osx_release/addons/ofxPCL/libs/pcl/lib",
 				);
 				OTHER_LDFLAGS = (
 					"$(OF_CORE_FRAMEWORKS)",
@@ -782,7 +790,7 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/of_v0.9.3_osx_release/addons/ofxPCL/libs/pcl/lib",
+					"$(SYSTEM_APPS_DIR)/of_v0.9.8_osx_release/addons/ofxPCL/libs/pcl/lib",
 				);
 				OTHER_LDFLAGS = (
 					"$(OF_CORE_FRAMEWORKS)",

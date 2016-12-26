@@ -5,4 +5,9 @@
 <mesh/>
 <min_dist>0.0001</min_dist>
 	<max_corres_dist>170</max_corres_dist>
+<group>
+		<min_dist>27.5001</min_dist>
+		<max_corres_dist>330</max_corres_dist>
+		<fps>385</fps>
+	</group>
 </mesh>

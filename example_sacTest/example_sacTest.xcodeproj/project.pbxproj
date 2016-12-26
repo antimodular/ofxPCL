@@ -301,7 +301,7 @@
 			buildPhases = (
 				E4B69B580A3A1756003C02F2 /* Sources */,
 				E4B69B590A3A1756003C02F2 /* Frameworks */,
-				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4B6FFFD0C3F9AB9008CF71C /* Run Script */,
 				E4C2427710CC5ABF004149E2 /* CopyFiles */,
 			);
 			buildRules = (
@@ -359,13 +359,14 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+		E4B6FFFD0C3F9AB9008CF71C /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -686,7 +687,7 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/of_v0.9.3_osx_release/addons/ofxPCL/libs/pcl/lib",
+					"$(SYSTEM_APPS_DIR)/of_v0.9.8_osx_release/addons/ofxPCL/libs/pcl/lib",
 				);
 				OTHER_LDFLAGS = (
 					"$(OF_CORE_FRAMEWORKS)",
@@ -782,7 +783,7 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/of_v0.9.3_osx_release/addons/ofxPCL/libs/pcl/lib",
+					"$(SYSTEM_APPS_DIR)/of_v0.9.8_osx_release/addons/ofxPCL/libs/pcl/lib",
 				);
 				OTHER_LDFLAGS = (
 					"$(OF_CORE_FRAMEWORKS)",

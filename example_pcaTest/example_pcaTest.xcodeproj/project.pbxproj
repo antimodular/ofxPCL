@@ -686,7 +686,7 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/of_v0.9.3_osx_release/addons/ofxPCL/libs/pcl/lib",
+					"$(SYSTEM_APPS_DIR)/of_v0.9.8_osx_release/addons/ofxPCL/libs/pcl/lib",
 				);
 				OTHER_LDFLAGS = (
 					"$(OF_CORE_FRAMEWORKS)",
@@ -782,7 +782,7 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/of_v0.9.3_osx_release/addons/ofxPCL/libs/pcl/lib",
+					"$(SYSTEM_APPS_DIR)/of_v0.9.8_osx_release/addons/ofxPCL/libs/pcl/lib",
 				);
 				OTHER_LDFLAGS = (
 					"$(OF_CORE_FRAMEWORKS)",
